@@ -1,0 +1,58 @@
+/* p,address, body, button, caption, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, label, legend, li, ol, pre, table, td, th, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style : none;
+	word-break: break-all;
+} */
+.blockquote {
+  position: relative;
+	text-align: center;
+	margin:0 auto;
+  width: 300px;
+	height: 130px;
+	border: solid 2px rgb(204,156,204);
+  /* border-top: solid 1px rgb(204,156,204);
+  border-bottom: solid 1px rgb(116,104,245);
+  border-left: solid 1px rgb(116,104,245);
+  border-left: 75px; */
+}
+.blockquote .content1{
+	padding-top: 50px;
+	font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  margin: 0 auto;
+}
+.blockquote:before {
+  position: absolute;
+  content: '\201C';
+  color: rgb(204,156,204);
+  font-size: 9em;
+  line-height: 0;
+  top: 35px;
+  left: 25px;
+}
+.blockquote:after {
+  position: absolute;
+  content: '\201D';
+  color: rgb(204,156,204);
+  font-size: 9em;
+  line-height: 0;
+  bottom: -43px;
+  right: 25px;
+}	
+.content2{
+	position: relative;
+	font-size: 20px;
+  margin: 0 auto;
+}
+
+.three_GetStart{
+	padding: 40px 0;
+	margin: 0;
+	text-align: center;
+	background-color: black;
+	color: seashell;
+
+}
