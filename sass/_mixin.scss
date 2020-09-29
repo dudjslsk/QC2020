@@ -1,0 +1,45 @@
+  
+@mixin quote($color, $font-color, $box-shadow, $font-weight, $p-font-size, $max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size) {   
+  background: $color;
+  box-shadow: $box-shadow;
+  color: $font-color;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: $bottom-font-size;
+  margin-top: 10px;
+  display: block;
+  font-weight: $font-weight;
+
+  p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: $p-font-size;
+      line-height: 1.5;
+      margin: 0;
+      max-width: $p-max-width;
+  }
+  :before {
+      content: $quote-before-content;
+      position: absolute;
+      top: 0px;
+      left: 10px;
+      font-size: 5em;
+      color: $quote-color;
+      font-weight: normal;
+    }
+  :after {
+      content: $quote-after-content;
+      position: absolute;
+      bottom: -110px;
+      line-height: 100px;
+      right: -32px;
+      font-size: 20em;
+      color: $quote-color;
+      font-weight: normal;
+  }
+}

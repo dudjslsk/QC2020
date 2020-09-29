@@ -1,0 +1,9 @@
+.qc-bora{
+	@include blockquote($bora, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-bbargang{
+	@include blockquote($bbargang, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-chorok{
+	@include blockquote($chorok, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}

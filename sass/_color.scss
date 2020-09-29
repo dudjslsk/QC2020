@@ -1,0 +1,28 @@
+// Optical(Alpa value)
+$alpha: 0.5;
+
+// defualt color
+$bora:      rgb(110, 65, 193)   !default;
+$bbargang:  rgb(246, 30, 50)    !default;
+$chorok:    rgb(0, 151, 11)     !default;
+
+// Grey
+$kray: 			rgb(160, 158, 158) 	!default;
+$ddark:		  rgb(36, 35, 35) 		!default;
+//Black & white
+$hite: 			rgb(255, 255, 255) 	!default;
+$vlack: 		rgb(0, 0, 0) 				!default;
+
+
+//background color
+$bg-bora:     rgba($bora, $alpha)      !default;
+$bg-bbargang: rgba($bbargang, $alpha)  !default;
+$bg-chorok:   rgba($chorok, $alpha)    !default;
+
+
+//defualt color array
+$defualt-color:(
+    'parang':$parang,
+    'bora':$bora,
+    'bbargang':$bbargang,
+)

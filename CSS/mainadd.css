@@ -1,0 +1,67 @@
+.three_GetStart{
+	width: 100%;
+	height: 130px;
+	background-color: rgb(0, 0, 0);
+	color: seashell;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+
+@media screen and (max-width: 1680px) {
+	.three_GetStart{
+		width: 100%;
+		height: 130px;
+		background-color: rgb(0, 0, 0);
+		color: seashell;
+		margin:0 auto;
+		text-align: center;
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.three_GetStart{
+		width: 100%;
+		height: 130px;
+		background-color: rgb(0, 0, 0);
+		color: seashell;
+		margin:0 auto;
+		text-align: center;
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.three_GetStart{
+		width: 100%;
+		height: 130px;
+		background-color: rgb(0, 0, 0);
+		color: seashell;
+		margin:0 auto;
+		text-align: center;
+		padding-top: 40px;
+	}
+}
+@media screen and (max-width: 736px) {
+	.three_GetStart{
+		width: 100%;
+		height: 130px;
+		background-color: rgb(0, 0, 0);
+		color: seashell;
+		margin:0 auto;
+		text-align: center;
+		padding-top: 40px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.three_GetStart{
+		width: 100%;
+		height: 130px;
+		background-color: rgb(0, 0, 0);
+		color: seashell;
+		margin:0 auto;
+		text-align: center;
+		padding-top: 40px;
+	}
+}

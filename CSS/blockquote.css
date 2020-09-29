@@ -1,58 +1,117 @@
-/* p,address, body, button, caption, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, label, legend, li, ol, pre, table, td, th, ul {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	list-style : none;
-	word-break: break-all;
-} */
-.blockquote {
+/* Purple */
+.qc-bora {
   position: relative;
 	text-align: center;
 	margin:0 auto;
-  width: 300px;
-	height: 130px;
-	border: solid 2px rgb(204,156,204);
-  /* border-top: solid 1px rgb(204,156,204);
-  border-bottom: solid 1px rgb(116,104,245);
-  border-left: solid 1px rgb(116,104,245);
-  border-left: 75px; */
+  width: 700px;
+	height: 230px;
+	border: solid 2px rgb(220, 19, 220);
+	margin-bottom: 60px;
 }
-.blockquote .content1{
-	padding-top: 50px;
-	font-size: 25px;
-  font-weight: bold;
-  position: relative;
-  margin: 0 auto;
-}
-.blockquote:before {
+.qc-bora:before {
   position: absolute;
   content: '\201C';
-  color: rgb(204,156,204);
+  color: rgb(220, 19, 220);
   font-size: 9em;
   line-height: 0;
   top: 35px;
   left: 25px;
 }
-.blockquote:after {
+.qc-bora:after {
   position: absolute;
   content: '\201D';
-  color: rgb(204,156,204);
+  color: rgb(220, 19, 220);
   font-size: 9em;
   line-height: 0;
-  bottom: -43px;
+  bottom: -35px;
   right: 25px;
 }	
-.content2{
-	position: relative;
-	font-size: 20px;
-  margin: 0 auto;
+.qc-bora > p{
+	padding-top: 75px;
+	font-size: 50px;
+  font-weight: bold;
+  position: relative;
+	margin: 0 auto;
+  color: rgb(220, 19, 220);
 }
 
-.three_GetStart{
-	padding: 40px 0;
-	margin: 0;
+
+/* Red */
+.qc-bbargang {
+  position: relative;
 	text-align: center;
-	background-color: black;
-	color: seashell;
-
+	margin:0 auto;
+	width: 700px;
+	height: 230px;
+	border: solid 2px rgb(228, 16, 1);
+	margin-bottom: 50px;
 }
+.qc-bbargang:before {
+  position: absolute;
+  content: '\201C';
+  color: rgb(228, 16, 1);
+  font-size: 9em;
+  line-height: 0;
+  top: 35px;
+  left: 25px;
+}
+.qc-bbargang:after {
+  position: absolute;
+  content: '\201D';
+  color: rgb(228, 16, 1);
+  font-size: 9em;
+  line-height: 0;
+  bottom: -35px;
+  right: 25px;
+}	
+.qc-bbargang > p{
+	padding-top: 75px;
+	font-size: 25px;
+  font-weight: bold;
+  position: relative;
+	margin: 0 auto;
+	font-size: 50px;
+	color: rgb(228, 16, 1);
+}
+
+/* Green */
+.qc-chorok {
+  position: relative;
+	text-align: center;
+	margin:0 auto;
+	width: 700px;
+	height: 230px;
+	border: solid 2px rgb(0, 238, 99);
+	margin-bottom: 50px;
+}
+.qc-chorok:before {
+  position: absolute;
+  content: '\201C';
+  color: rgb(0, 238, 99);
+  font-size: 9em;
+  line-height: 0;
+  top: 35px;
+	left: 25px;
+}
+	.qc-chorok:after {
+  position: absolute;
+  content: '\201D';
+  color: rgb(0, 238, 99);
+  font-size: 9em;
+  line-height: 0;
+  bottom: -35px;
+  right: 25px;
+}	
+.qc-chorok > p{
+	padding-top: 75px;
+	font-size: 25px;
+  font-weight: bold;
+  position: relative;
+	margin: 0 auto;
+	font-size: 50px;
+  color: rgb(0, 238, 99);
+}
+
+
+
+
